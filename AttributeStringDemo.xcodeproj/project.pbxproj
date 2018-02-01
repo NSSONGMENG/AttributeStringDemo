@@ -13,9 +13,9 @@
 		141F51EB20200CE000AB92B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141F51EA20200CE000AB92B4 /* Assets.xcassets */; };
 		141F51EE20200CE000AB92B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141F51EC20200CE000AB92B4 /* LaunchScreen.storyboard */; };
 		141F51F120200CE000AB92B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F51F020200CE000AB92B4 /* main.m */; };
-		141F51F92020152400AB92B4 /* IXAttributeTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F51F82020152400AB92B4 /* IXAttributeTapLabel.m */; };
 		141F51FC2020554E00AB92B4 /* alert@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 141F51FA2020554E00AB92B4 /* alert@3x.png */; };
 		141F51FD2020554E00AB92B4 /* alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 141F51FB2020554E00AB92B4 /* alert@2x.png */; };
+		14668A752023189500A96DA2 /* IXAttributeTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14668A732023189500A96DA2 /* IXAttributeTapLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +29,10 @@
 		141F51ED20200CE000AB92B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		141F51EF20200CE000AB92B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141F51F020200CE000AB92B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		141F51F72020152400AB92B4 /* IXAttributeTapLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IXAttributeTapLabel.h; sourceTree = "<group>"; };
-		141F51F82020152400AB92B4 /* IXAttributeTapLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IXAttributeTapLabel.m; sourceTree = "<group>"; };
 		141F51FA2020554E00AB92B4 /* alert@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert@3x.png"; sourceTree = "<group>"; };
 		141F51FB2020554E00AB92B4 /* alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert@2x.png"; sourceTree = "<group>"; };
+		14668A732023189500A96DA2 /* IXAttributeTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IXAttributeTapLabel.m; path = IXAttributeTapLabel/IXAttributeTapLabel.m; sourceTree = SOURCE_ROOT; };
+		14668A742023189500A96DA2 /* IXAttributeTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IXAttributeTapLabel.h; path = IXAttributeTapLabel/IXAttributeTapLabel.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 				141F51E220200CE000AB92B4 /* AppDelegate.m */,
 				141F51E420200CE000AB92B4 /* ViewController.h */,
 				141F51E520200CE000AB92B4 /* ViewController.m */,
-				141F51F72020152400AB92B4 /* IXAttributeTapLabel.h */,
-				141F51F82020152400AB92B4 /* IXAttributeTapLabel.m */,
+				14668A742023189500A96DA2 /* IXAttributeTapLabel.h */,
+				14668A732023189500A96DA2 /* IXAttributeTapLabel.m */,
 				141F51FB2020554E00AB92B4 /* alert@2x.png */,
 				141F51FA2020554E00AB92B4 /* alert@3x.png */,
 				141F51E720200CE000AB92B4 /* Main.storyboard */,
@@ -157,7 +157,7 @@
 			files = (
 				141F51E620200CE000AB92B4 /* ViewController.m in Sources */,
 				141F51F120200CE000AB92B4 /* main.m in Sources */,
-				141F51F92020152400AB92B4 /* IXAttributeTapLabel.m in Sources */,
+				14668A752023189500A96DA2 /* IXAttributeTapLabel.m in Sources */,
 				141F51E320200CE000AB92B4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

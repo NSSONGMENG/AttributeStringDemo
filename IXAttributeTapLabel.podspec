@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/NSSONGMENG/AttributeStringDemo.git", :tag => "#{s.version}" }
 
-  s.source_files  = "AttributeStringDemo", "AttributeStringDemo/IXAttributeTapLabel/*.{h,m}"
+  s.source_files  = "AttributeStringDemo", "IXAttributeTapLabel/*.{h,m}"
 
 end

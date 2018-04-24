@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "IXAttributeTapLabel"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "可点击响应指定内容的UILabel子类"
 
   s.description  = <<-DESC 

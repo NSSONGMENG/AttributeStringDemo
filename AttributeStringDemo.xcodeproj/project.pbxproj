@@ -15,7 +15,7 @@
 		141F51F120200CE000AB92B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F51F020200CE000AB92B4 /* main.m */; };
 		141F51FC2020554E00AB92B4 /* alert@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 141F51FA2020554E00AB92B4 /* alert@3x.png */; };
 		141F51FD2020554E00AB92B4 /* alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 141F51FB2020554E00AB92B4 /* alert@2x.png */; };
-		144A9FE3208F1F7A00E02322 /* IXAttributeTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A9FE1208F1F7900E02322 /* IXAttributeTapLabel.m */; };
+		144A9FE7208F202100E02322 /* IXAttributeTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A9FE5208F202000E02322 /* IXAttributeTapLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		141F51F020200CE000AB92B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		141F51FA2020554E00AB92B4 /* alert@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert@3x.png"; sourceTree = "<group>"; };
 		141F51FB2020554E00AB92B4 /* alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert@2x.png"; sourceTree = "<group>"; };
-		144A9FE1208F1F7900E02322 /* IXAttributeTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IXAttributeTapLabel.m; path = AttributeStringDemo/IXAttributeTapLabel/IXAttributeTapLabel.m; sourceTree = SOURCE_ROOT; };
-		144A9FE2208F1F7900E02322 /* IXAttributeTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IXAttributeTapLabel.h; path = AttributeStringDemo/IXAttributeTapLabel/IXAttributeTapLabel.h; sourceTree = SOURCE_ROOT; };
+		144A9FE5208F202000E02322 /* IXAttributeTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IXAttributeTapLabel.m; path = IXAttributeTapLabel/IXAttributeTapLabel.m; sourceTree = SOURCE_ROOT; };
+		144A9FE6208F202100E02322 /* IXAttributeTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IXAttributeTapLabel.h; path = IXAttributeTapLabel/IXAttributeTapLabel.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 		144A9FE4208F1F8300E02322 /* IXAttributeTapLabel */ = {
 			isa = PBXGroup;
 			children = (
-				144A9FE2208F1F7900E02322 /* IXAttributeTapLabel.h */,
-				144A9FE1208F1F7900E02322 /* IXAttributeTapLabel.m */,
+				144A9FE6208F202100E02322 /* IXAttributeTapLabel.h */,
+				144A9FE5208F202000E02322 /* IXAttributeTapLabel.m */,
 			);
 			path = IXAttributeTapLabel;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			files = (
 				141F51E620200CE000AB92B4 /* ViewController.m in Sources */,
 				141F51F120200CE000AB92B4 /* main.m in Sources */,
-				144A9FE3208F1F7A00E02322 /* IXAttributeTapLabel.m in Sources */,
+				144A9FE7208F202100E02322 /* IXAttributeTapLabel.m in Sources */,
 				141F51E320200CE000AB92B4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

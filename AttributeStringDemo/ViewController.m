@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor yellowColor];
     
-    NSString    * str =  @"广东省 深圳市 南上区 科苑路 科兴科学园 B1栋 18F 深圳市智汇云信科技有限公司";
+    NSString    * str =  @"广东省 深圳市 南山区 科苑路 科兴科学园 B1栋 18F 深圳市智汇云信科技有限公司";
     
     IXAttributeTapLabel * label = [[IXAttributeTapLabel alloc] initWithFrame:CGRectMake(50, 100, self.view.frame.size.width - 100, 70)];
     label.backgroundColor = [UIColor whiteColor];
